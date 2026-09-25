@@ -12,7 +12,7 @@ package «lean-proofs-latest» where
     ⟨`maxSynthPendingDepth, 3⟩
   ]
 
-require leancert from git "https://github.com/alerad/leancert.git" @ "v4.33.0"
+require leancert from git "https://github.com/alerad/leancert.git" @ "v4.33.1"
 
 require ComparatorChallenges from "ComparatorChallenges"
 
@@ -27,6 +27,10 @@ require BoundedGaps from git "https://github.com/gotrevor/FormalPantheon.git" @
 require Waring from git "https://github.com/gotrevor/FormalPantheon.git" @
   "9a973bb8bc254720a2fcb8436bc5984b1cf21e82" / "Warning"
 
+require PrimeNumberTheoremAnd from git
+  "https://github.com/AlexKontorovich/PrimeNumberTheoremAnd.git" @
+  "55270df807213fc3584523d09e0311d7dc073ff5"
+
 require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "v4.33.1"
 
 @[default_target] lean_lib All
@@ -40,8 +44,6 @@ lean_lib ErdosProblems
 lean_lib HundredTheorems
 
 lean_lib MathOverflow
-
-lean_lib PrimeNumberTheoremAnd
 
 lean_lib StackExchange
 
@@ -67,7 +69,6 @@ post_update pkg do
       ("AINTLIB", "hasseweil-linter-v4.33.0.patch"),
       ("AINTLIB", "chebotarev-linter-v4.33.0.patch"),
       ("AINTLIB", "dedekind-flt-linter-v4.33.0.patch"),
-      ("leancert", "leancert-linter-v4.33.0.patch"),
       ("Waring", "waring-linter-v4.33.0.patch")] do
     -- Dependencies live in the ROOT workspace's package directory, which is this package's own
     -- `.lake/packages` only when this package is the root.
