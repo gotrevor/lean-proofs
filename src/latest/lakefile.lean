@@ -21,13 +21,13 @@ require APAP from git "https://github.com/YaelDillies/apap.git" @ "v4.33.0"
 require AINTLIB from git "https://github.com/CBirkbeck/AINTLIB.git" @
   "1c1c74664e40071c2c2165bc55ca2616a67ccd6b"
 
-require BoundedGaps from git "https://github.com/frenzymath/FormalPantheon.git" @
-  "ffbb65c21afc8a36ace67720f1b0df1c63d26bd1" / "BoundedGaps"
+require BoundedGaps from git "https://github.com/gotrevor/FormalPantheon.git" @
+  "9a973bb8bc254720a2fcb8436bc5984b1cf21e82" / "BoundedGaps"
 
-require Waring from git "https://github.com/frenzymath/FormalPantheon.git" @
-  "ffbb65c21afc8a36ace67720f1b0df1c63d26bd1" / "Warning"
+require Waring from git "https://github.com/gotrevor/FormalPantheon.git" @
+  "9a973bb8bc254720a2fcb8436bc5984b1cf21e82" / "Warning"
 
-require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "v4.33.0"
+require mathlib from git "https://github.com/leanprover-community/mathlib4.git" @ "v4.33.1"
 
 @[default_target] lean_lib All
 
