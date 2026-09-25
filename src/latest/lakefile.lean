@@ -69,7 +69,9 @@ post_update pkg do
       ("AINTLIB", "dedekind-flt-linter-v4.33.0.patch"),
       ("leancert", "leancert-linter-v4.33.0.patch"),
       ("Waring", "waring-linter-v4.33.0.patch")] do
-    let dependency := pkg.dir / ".lake" / "packages" / name
+    -- Dependencies live in the ROOT workspace's package directory, which is this package's own
+    -- `.lake/packages` only when this package is the root.
+    let dependency := (← getRootPackage).dir / ".lake" / "packages" / name
     let patch := pkg.dir / "patches" / patchName
     if !(← dependency.pathExists) then
       error s!"{name} package directory does not exist: {dependency}"
