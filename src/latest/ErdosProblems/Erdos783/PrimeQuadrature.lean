@@ -6,7 +6,7 @@ Authors: Boris Alexeev, OpenAI Codex
 import ErdosProblems.Erdos783.SmoothBuchstab
 import Mathlib.Analysis.Asymptotics.Lemmas
 import Mathlib.Analysis.SpecialFunctions.Integrals.Basic
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 namespace Erdos783
 

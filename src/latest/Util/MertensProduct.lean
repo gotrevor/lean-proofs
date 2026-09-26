@@ -1,4 +1,4 @@
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 open Filter Finset Real Asymptotics Topology
 

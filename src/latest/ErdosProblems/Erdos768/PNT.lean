@@ -1,5 +1,5 @@
 import Mathlib
-import ErdosProblems.Erdos49.PNT.MediumPNT
+import PrimeNumberTheoremAnd.MediumPNT
 
 /- Ported to Lean/Mathlib 4.33.0; imports and proof elaboration adapted. -/
 set_option relaxedAutoImplicit true

@@ -1,5 +1,5 @@
-import ErdosProblems.Erdos49.PNT.MediumPNT
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.MediumPNT
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 /-!
 # Quantitative prime-number input for Erdős Problem 49

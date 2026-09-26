@@ -1,5 +1,5 @@
 import ErdosProblems.Erdos380.PrimeCounts
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 open scoped BigOperators Topology
 

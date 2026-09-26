@@ -1,4 +1,4 @@
-import ErdosProblems.Erdos49.PNT.MediumPNT
+import PrimeNumberTheoremAnd.MediumPNT
 import Mathlib.NumberTheory.AbelSummation
 
 set_option backward.isDefEq.respectTransparency false

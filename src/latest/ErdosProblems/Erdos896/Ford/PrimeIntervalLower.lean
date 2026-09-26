@@ -1,7 +1,7 @@
 /- leanprover/lean4:v4.33.0 mathlib v4.33.0 -/
 
 import ErdosProblems.Erdos896.Ford.PrimeEstimates
-import ErdosProblems.Erdos49.PNT.MediumPNT
+import PrimeNumberTheoremAnd.MediumPNT
 
 /-!
 # Lower bounds for factor-two prime intervals

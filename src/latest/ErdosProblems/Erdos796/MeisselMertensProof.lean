@@ -1,5 +1,5 @@
 import ErdosProblems.Erdos796.BaselineAsymptotic
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 /- Ported to Lean/Mathlib 4.33.0; imports and tactic elaboration adapted. -/
 set_option autoImplicit true

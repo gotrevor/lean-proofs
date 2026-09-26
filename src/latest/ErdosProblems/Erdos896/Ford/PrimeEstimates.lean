@@ -1,6 +1,6 @@
 /- leanprover/lean4:v4.33.0  mathlib v4.33.0 -/
 
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 /-!
 # Elementary prime estimates used in the Ford upper bound

@@ -18,7 +18,7 @@ import Mathlib.Tactic.Positivity
 import ErdosProblems.Erdos390.PoissonDickmanDensityReal
 import ErdosProblems.Erdos783.GSKernel
 import ErdosProblems.Erdos783.PrimeQuadrature
-import ErdosProblems.Erdos49.PNT.IEANTN.Mertens
+import PrimeNumberTheoremAnd.IEANTN.Mertens
 
 /-!
 # Erdős Problem 783
