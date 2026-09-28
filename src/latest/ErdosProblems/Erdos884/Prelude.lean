@@ -12,7 +12,7 @@ Original Mathlib commit: fabf563a7c95a166b8d7b6efca11c8b4dc9d911f.
 The port reuses the repository's existing PNT+ Selberg sieve by Arend Mellendijk.
 -/
 import ErdosProblems.Erdos884.Definitions
-import ErdosProblems.Erdos896.PNT.Mathlib.NumberTheory.Sieve.SelbergBounds
+import PrimeNumberTheoremAnd.Mathlib.NumberTheory.Sieve.SelbergBounds
 
 open Finset
 

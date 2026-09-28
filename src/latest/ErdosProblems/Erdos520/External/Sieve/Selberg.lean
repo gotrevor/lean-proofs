@@ -6,6 +6,6 @@ Author: Arend Mellendijk
 ! This file was ported from Lean 3 source module selberg
 -/
 
-import ErdosProblems.Erdos896.PNT.Mathlib.NumberTheory.Sieve.Selberg
+import PrimeNumberTheoremAnd.Mathlib.NumberTheory.Sieve.Selberg
 
 /- Reuse the existing port so aggregate imports share the same global sieve declarations. -/

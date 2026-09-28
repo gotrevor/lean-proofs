@@ -6,6 +6,6 @@ Author: Arend Mellendijk
 ! This file was ported from Lean 3 source module aux_results
 -/
 
-import ErdosProblems.Erdos896.PNT.Mathlib.NumberTheory.Sieve.AuxResults
+import PrimeNumberTheoremAnd.Mathlib.NumberTheory.Sieve.AuxResults
 
 /- Reuse the existing port so aggregate imports share the same global sieve declarations. -/

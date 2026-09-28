@@ -1,4 +1,4 @@
-import ErdosProblems.Erdos896.PNT.Mathlib.NumberTheory.Sieve.SelbergBounds
+import PrimeNumberTheoremAnd.Mathlib.NumberTheory.Sieve.SelbergBounds
 
 /-!
 # Optimized reciprocal-density Selberg coefficients for prime kernels

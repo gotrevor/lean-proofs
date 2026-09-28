@@ -3,7 +3,7 @@
 import ErdosProblems.Erdos387.CongruenceCounting
 import ErdosProblems.Erdos387.DivisorStructure
 import ErdosProblems.Erdos896.Ford.ReductionCore
-import ErdosProblems.Erdos896.PNT.Mathlib.NumberTheory.Sieve.SelbergBounds
+import PrimeNumberTheoremAnd.Mathlib.NumberTheory.Sieve.SelbergBounds
 import Mathlib.Analysis.PSeries
 import Mathlib.NumberTheory.Chebyshev
 
